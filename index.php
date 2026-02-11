@@ -1,4 +1,4 @@
 <?php
-header("Location: length.php");
-exit();
-?>
+
+    header("Location: length.php");
+    exit();
