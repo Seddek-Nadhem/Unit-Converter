@@ -12,7 +12,15 @@
         <h1>Unit Converter</h1>
 
         <div class="nav-tabs">
-            <a href="length.php">Length</a>
-            <a href="weight.php">Weight</a>
-            <a href="temperature.php">Temperature</a>
+            <?php
+                // Get the current file name (e.g., "length.php" or "weight.php")
+                // $_SERVER['PHP_SELF'] gets the whole link
+                // basename() get the file name only 
+                $current_page = basename($_SERVER['PHP_SELF']);
+            ?>
+            
+            <a href="length.php" class="<?php echo ($current_page == 'length.php' || $current_page == 'index.php') ? 'active' : ''; ?>">Length</a>           
+            <a href="weight.php" class="<?php echo ($current_page == 'weight.php') ? 'active' : ''; ?>">Weight</a>
+            <a href="temperature.php" class="<?php echo ($current_page == 'temperature.php') ? 'active' : ''; ?>">Temperature</a>
+            
         </div>
