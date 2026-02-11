@@ -39,7 +39,7 @@
     <?php if ($result): ?>
         
         <div class="result-box" style="text-align: center;">
-            <p>Result of your calculation:</p>
+            <p style="font-size: 1.5rem;">Result of your calculation:</p>
             <h2 style="font-size: 2rem; margin: 10px 0; color: #333;">
                 <?php echo $result; ?>
             </h2>
