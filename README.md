@@ -28,7 +28,7 @@ To run this project locally, you need a PHP environment. The instructions below 
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/seddek-nadhem/unit-converter.git](https://github.com/seddek-nadhem/unit-converter.git)
+git clone https://github.com/seddek-nadhem/unit-converter.git
 ```
 
 2. Navigate to the project directory:
@@ -37,12 +37,14 @@ cd unit-converter
 ```
 
 3. Serve the application:
+
 If using Laravel Herd, simply link the directory:
 ```bash
 herd link
 ```
 
 4. Open in Browser:
+
 Navigate to http://unit-converter.test to use the application. 
 
 ## Inspiration
