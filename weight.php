@@ -57,7 +57,7 @@
         <form action="" method="POST">
             
             <label>Enter the weight to convert</label>
-            <input type="number" name="value" required step="any">
+            <input type="number" name="value" required step="any" min="0">
 
             <label>Unit to Convert from</label>
             <select name="from_unit">
